@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,900&display=swap');  
+
+body{
+    margin: 0;  
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.header-links{
+    padding: 34px;
+    text-align: center;
+}
+
+.header-links a{
+    color: white;
+    margin-left: 20px;
+}
+
+.welcome-inner{
+    text-align: center;
+    padding: 240px 0;
+}
+.welcome{
+    background-image: url('../img/thumb-1920-1009606.png');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.welcome-inner h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+.welcome-inner h1{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    background-color: rgb(255, 158, 47);
+    opacity: 0.6;
+}
+
+button{
+    padding: 20px 36px;
+    background-color: rgba(1, 10, 11, 5);
+    border: none;
+    color: white;
+    border-radius: 100px;
+}
+
+button:hover{
+    background: white;
+    color: black;
+    transition: all 0.4s ease;
+}
+
+.about-inner{
+    text-align: center;
+    padding: 105px 0;
+}
+.about-inner h1{
+    font-size: 36px;
+    
+}
+.about-inner p{
+    opacity:0.5 ;
+    
+}
+
+.services {
+    background-color: #f0f0f0;
+}
+
+.services-inner {
+    padding: 80px ;
+}
+
+.services-text h2{
+    font-size: 36px;
+}
+
+.services-text p{
+    opacity: 0.7;
+}
+
+.services-text{
+    display: inline-block;
+    width: 50%;
+}
+
+.services-image{
+    display: inline-block;
+    text-align: right;
+    width: 170%;
+    position: relative;
+    bottom: 300px;
+    left: 160px;
+}
+
+.services-text2{
+    text-align: right;
+    position: relative;
+    left: 550px;
+}
+
+.services-image2{
+    text-align: left;
+    width: 170%;
+    position: relative;
+    bottom: 300px;
+    right: 560px;
+}
+
+.services-text3{
+    text-align: left;
+    width: 102%;
+    position: relative;
+    right: 560px;
+}
+
+.services-image3{
+    display: inline-block;
+    text-align: right;
+    width: 170%;
+    position: relative;
+    bottom: 300px;
+    left: 160px;
+}
+
+.services-text4{
+    text-align: right;
+    position: relative;
+    left: 550px;
+}
+
+.services-image4{
+    text-align: left;
+    width: 170%;
+    position: relative;
+    bottom: 300px;
+    right: 560px;
+}
+
+hr{
+    margin: 0px 0;
+}
+
+.works-inner{
+    padding: 100px 0;
+}
+
+.works{
+    background-color: indianred;
+}
+
+.works-title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.works-title h1{
+font-size: 36px;
+color: white;
+}
+
+.works-button{
+    display: inline-block;
+}
+
+.works-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.works-item{
+    width: 30%;
+}
+
+.works-item img{
+    width: 97%;
+}
+
+.works-item p{
+    color: #999999;
+}
+
+.port{
+    background-color: #F8F6F8;
+    padding: 20px 0;
+}
+
+.port-inner{
+    padding: 100px 0;
+}
+
+.port-inner h1{
+font-size: 36px;
+}
+
+.port-inner li{
+padding: 10px 0;
+margin-bottom: 40px;
+opacity: 0.8;
+background: linear-gradient(100deg, rgba(0,0,0,0), green);
+}
+
+.footer{
+    background-color: #e0e0e0;
+}
+
+.footer-content{
+    padding: 70px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.footer-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-item{
+    color: #999999;
+    font-size: 14px;
+}
+
+.footer-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-item{
+    padding: 8px;
+}
+
+.footer-l{
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid gray;
+    color: gray;
+    opacity: 0.5;
+}

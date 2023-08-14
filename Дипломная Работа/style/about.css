@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,900&display=swap');  
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+body{
+    margin: 0;  
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+header{
+   background-color: black;
+}
+.header-links {
+    padding: 34px;
+    text-align: center;
+}
+.header-links a{
+    color: white;
+    margin-left: 16px;
+}
+.welcome-inner{
+    text-align: center;
+    padding: 240px 0;
+}
+.welcome{
+    background-image: url('../img/321.jpg');
+    color: white;
+}
+.welcome-inner h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+.welcome-inner h1{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    background-color: aqua;
+    opacity: 0.6;
+}
+button{
+    padding: 20px 36px;
+    background-color: #4985FF;
+    border: none;
+    color: white;
+    border-radius: 100px;
+}
+
+button:hover{
+    background: black;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.about-inner{
+    text-align: center;
+    padding: 105px 0;
+}
+.about-inner h1{
+    font-size: 36px;
+    
+}
+.about-inner p{
+    opacity:0.5 ;
+    
+}
+.about-item{
+    display: inline-block;
+    width: 33%;
+}
+.about-item img{
+    width: 40%;
+}
+.about-text{
+    width: 50%;
+    display: inline-block;
+    padding-top: 40px;
+
+}
+.about-text h2{
+    font-size: 18px;
+    
+}
+.about-text p{
+    font-size: 14px;
+    
+}
+.about-list{
+    padding: 70px 0 55px;
+}
+
+.services {
+    background-color: #f0f0f0;
+}
+
+.services-inner {
+    padding: 105px 0;
+}
+
+.services-text h2{
+    font-size: 36px;
+}
+
+.services-text p{
+    opacity: 0.7;
+}
+
+.services-text{
+    display: inline-block;
+    width: 60%;
+}
+
+.services-image{
+    display: inline-block;
+    text-align: right;
+    width: 35%;
+}
+
+hr{
+    margin: 105px 0;
+}
+
+.services-item{
+    width: 12%;
+    margin-right: 6%;
+    display: inline-block;
+}
+
+.works-inner{
+    padding: 100px 0;
+}
+
+.works{
+    background-color: aquamarine;
+}
+
+.works-title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.works-title h1{
+font-size: 36px;
+color: white;
+}
+
+.works-button{
+    display: inline-block;
+}
+
+.works-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.works-item{
+    width: 30%;
+}
+
+.works-item img{
+    width: 97%;
+}
+
+.works-item p{
+    color: #999999;
+}
+
+.port{
+    background-color: #F8F6F8;
+}
+
+.port-inner{
+    padding: 100px 0;
+    text-align: center;
+}
+
+port-inner h1{
+font-size: 36px;
+}
+
+port-inner p{
+font-size: 30px;
+color: #999999;
+margin-bottom: 70px;
+}
+
+.port-images{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+margin-bottom: 70px;
+}
+
+.port-images img{
+    width: 80%;
+}
+
+.sub-inner{
+    text-align: center;
+    padding: 80px 0;
+}
+
+.sub-input{
+    width: 488px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 40px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 20px 0px #999999;
+            box-shadow: 0px 0px 20px 0px #999999;
+}
+
+.sub-inner p{
+    color: gray;
+    opacity: 0.8;
+}
+
+.sub-input input{
+    width: 60%;
+    padding: 12px 36px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+
+.sub-input span{
+    width: 40%;
+    padding: 12px;
+    background-color: #4985FF;
+    font-size: 16px;
+    color: white;
+}
+
+.footer{
+    background-color: #e0e0e0;
+}
+
+.footer-content{
+    padding: 70px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.footer-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-item{
+    color: #999999;
+    font-size: 14px;
+}
+
+.footer-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-item{
+    padding: 8px;
+}
+
+.footer-l{
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid gray;
+    color: gray;
+    opacity: 0.5;
+}
+
+.modal {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 90vh;
+    display: none;
+}
+
+.modal-close {
+    height: 10vh;
+    background-color: white;
+    text-align: right;
+}
+
+@media (max-width:720px) {
+    .container{
+        width: auto;
+        margin: 0 10px;
+    }
+
+    .header-links{
+       padding: 5;
+    }
+
+    .welcome-inner h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .welcome-inner{
+        padding: 120px 0;
+    }
+
+    .about-inner h1{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .about-inner p{
+        font-size: 14px;
+    }
+
+    .about-item{
+        display: block;
+        width: 100%;
+        margin-bottom: 36px;
+    }
+
+    .services-info{
+        display: block;
+    }
+
+    .services-image{
+        width: 51%;
+    }
+
+    .services-list{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .services-item{
+        width: 40%;
+    }
+
+    .works-list{
+        display: block;
+    }
+
+    .works-item{
+        width: 100%;
+    }
+
+    .port-inner{
+        display: block;
+        width: 80%;
+    }
+
+    .port-images{
+        display: block;
+        display: inline-block;
+    }
+
+    .video-inner{
+        display: block;
+    }
+
+    .sub-inner{
+        display: block;
+    }
+
+    .footer-content{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
